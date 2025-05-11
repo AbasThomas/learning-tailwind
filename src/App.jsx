@@ -1,28 +1,17 @@
 import React from 'react'
 const App = () => {
   return (
-    <div >
-      <div className=' p-24 bg-gray-900 text-white  flex items-center justify-between '>
-        <div className="logo ">
-          <h2 className='text-3xl uppercase ' >logobakery</h2>
-        </div>
-        <div className='menu '>
-          <ul className='menu-items flex gap-5 p-24'>
-            <li className="item">Home</li>
-            <li className="item">Contacts</li>
-            <li className="item">About</li>
-            <li className="item">Services</li>
-          </ul>
-        </div>
-        <div className="action-btn ">
-          <button className="action bg-blue-800">Sign in</button>
-          <button className="action bg-blue-800 ">Get Started</button>
-        </div>
-        <button>
-
-        </button>
-      </div>
-    </div>  
+    // <div className='bg-violet-200 h-10 w-full border-2 border-violet-50 rounded-md my-4 p-2'>
+    //    <h1 className='text-center font-mono font-extrabold'>Hello  World</h1>
+    // </div>
+    // <div className=' grid grid-cols-5 gap-2 mt-2 mx-2'>
+    //   <div className='h-16  rounded-full bg-blue-500'></div>
+    //   <div className='h-16  rounded-full bg-green-500'></div>
+    //   <div className='h-16  rounded-full bg-orange-500'></div>
+    // </div>
+    <div className="sm:bg-red-500 md:bg-blue-500 ">
+      <p >i appear on screens wider that 768px </p>
+    </div>
   )
 }
 

@@ -2,18 +2,8 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='bg-#24252A flex '>
-        <div className='menu '>
-          <ul className='flex menu-items '>
-            <li className="item">Home</li>
-            <li className="item">Contacts</li>
-            <li className="item">About</li>
-            <li className="item">Services</li>
-            <li className="item"> </li>
-          </ul> 
-        </div>
-    </div>
+       <h1 className='text-lg text-center text-blue-400'>Hello  World</h1>
   )
 }
 
-export default Navbar
+export default Navbar  
