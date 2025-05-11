@@ -4,13 +4,13 @@ const Navbar = () => {
   return (
     <div className='bg-#24252A flex '>
         <div className='menu '>
-          <ul className='menu-items flex '>
+          <ul className='flex menu-items '>
             <li className="item">Home</li>
             <li className="item">Contacts</li>
             <li className="item">About</li>
             <li className="item">Services</li>
             <li className="item"> </li>
-          </ul>
+          </ul> 
         </div>
     </div>
   )
