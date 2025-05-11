@@ -12,9 +12,9 @@ const App = () => {
     // <div className="sm:bg-red-500 md:bg-blue-500 ">
     //   <p >i appear on screens wider that 768px </p>
     // </div>
-    <div className='flex items-center p- bg-gray-200'>
-      <div className="font-[30px]">SnapResume</div>
-      <div className='flex '>
+    <div className='flex p- bg-gray-200'>
+      <div className="text-2xl font-semibold"><h2>SnapResume</h2></div>
+      <div className='flex items-center justify-center   '>
         <ul>Home</ul>
         <ul>Services</ul>
         <ul>Contact</ul>
