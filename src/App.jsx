@@ -9,8 +9,17 @@ const App = () => {
     //   <div className='h-16  rounded-full bg-green-500'></div>
     //   <div className='h-16  rounded-full bg-orange-500'></div>
     // </div>
-    <div className="sm:bg-red-500 md:bg-blue-500 ">
-      <p >i appear on screens wider that 768px </p>
+    // <div className="sm:bg-red-500 md:bg-blue-500 ">
+    //   <p >i appear on screens wider that 768px </p>
+    // </div>
+    <div className='flex items-center '>
+      <div className="font-[30px]">SnapResume</div>
+      <div className='flex '>
+        <ul>Home</ul>
+        <ul>Services</ul>
+        <ul>Contact</ul>
+        <ul>About</ul>
+      </div>
     </div>
   )
 }
