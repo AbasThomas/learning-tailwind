@@ -14,7 +14,7 @@ const App = () => {
     // </div>
     <div className='flex p- bg-gray-200'>
       <div className="text-2xl font-semibold"><h2>SnapResume</h2></div>
-      <div className='flex items-center justify-center   '>
+      <div className='flex items-center justify-center'>
         <ul>Home</ul>
         <ul>Services</ul>
         <ul>Contact</ul>
